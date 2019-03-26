@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  
   //initial array of tv shows
   var topics = ["Sports", "Movies", "Video Games", "Lifestyle", "Fashion"]
   gifDisplay = " "
@@ -42,7 +43,7 @@ $(document).ready(function(){
   event.preventDefault();
   
  
-  var gif = $("#search-bar").val().trim();
+  var gif = $("#search-bar").val().trim(); 
   
   
   topics.push(gif);
