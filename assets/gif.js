@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   
-  //initial array of tv shows
+//topics array
   var topics = ["Sports", "Movies", "Video Games", "Lifestyle", "Fashion"]
   gifDisplay = " "
   
